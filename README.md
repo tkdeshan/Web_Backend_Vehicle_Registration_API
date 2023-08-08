@@ -1,5 +1,5 @@
 # Backend_Web_API_Demo_Vehicle_Registration
-This web app is for vehical registration. There are several field data required to register vehical that vehicleType, plateNo, owner, manufacturer, manufacturedYear, color. There are five API have been created to retrive all data, retrive data from id, insert new data, update data from id and delete data from id. 
+This web app is for vehical registration. There are several field data required to register vehical that vehicleType, plateNo, owner, manufacturer, manufacturedYear, color. There are five API have been created to retrive all data, retrive data from id, insert new data, update data from id and delete data from id. Postman API platform is used to provide demo data.
 
 # How to run
 you can run this app using yarn start command and can be used postman to test that creating five API.
