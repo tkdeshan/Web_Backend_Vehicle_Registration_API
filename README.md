@@ -33,8 +33,6 @@ Installed before using your API.
 
 ## API Endpoints
 
-# How to run
-
 1.GET /http://localhost:3001/api/data
     * Read all the data. 
 
@@ -44,7 +42,6 @@ Installed before using your API.
 3.POST /http://localhost:3001/api/data
     * Insert data.
 
-    ```bash
     {
         "vehicleType":"CAR",   
         "plateNo":"ABB-4579",    
