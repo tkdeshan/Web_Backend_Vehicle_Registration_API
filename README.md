@@ -42,7 +42,7 @@ Installed before using your API.
 
 3.POST /http://localhost:3001/api/data
   * Insert data.
-
+    ```bash
     {
         "vehicleType":"CAR",   
         "plateNo":"ABB-4579",    
