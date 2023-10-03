@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+require('dotenv').config();
 
 const app = express();
 
@@ -14,7 +15,7 @@ app.use(bodyParser.json());
 app.use(vehicleRoutes);
 
 const PORT = 3001;
-const DB_URL = 'mongodb+srv://tkdeshan:TkD58630@mernapp.w36mrvh.mongodb.net/mernCRUD?retryWrites=true&w=majority';
+const DB_URL = process.env.MONGODB_URI;
 
 mongoose.connect(DB_URL)
     .then(() =>{
