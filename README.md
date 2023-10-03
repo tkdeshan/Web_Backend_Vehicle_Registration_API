@@ -25,22 +25,23 @@ Installed before using your API.
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/Web_Backend_Vehicle_Registration_API.git`
-2. Navigate to the project directory: `Web_Backend_Vehicle_Registration_API`
+1. Clone the repository: `git clone https://github.com/tkdeshan/Web_Backend_Vehicle_Registration_API.git`
+2. Navigate to the project directory: `cd Web_Backend_Vehicle_Registration_API`
 3. Install dependencies: `npm install`
-4. Copy example.env file and save as .env. Set MongoDB URI with your credentials.
-5. Start the API: `npm start`
+4. Copy example.env file and save as .env.
+5. Set MongoDB URI with your credentials.
+6. Start the API: `npm start`
 
 ## API Endpoints
 
 1.GET /http://localhost:3001/api/data
-    * Read all the data. 
+  * Read all the data. 
 
 2.GET /http://localhost:3001/api/data/:id
-    * Read data from Id.
+  * Read data from Id.
 
 3.POST /http://localhost:3001/api/data
-    * Insert data.
+  * Insert data.
 
     {
         "vehicleType":"CAR",   
@@ -52,8 +53,8 @@ Installed before using your API.
     }
 
 4.PUT /http://localhost:3001/api/data/:id
-    * Update data from Id.
+  * Update data from Id.
 
 5.DELETE /http://localhost:3001/api/data/:id
-    * Delete data from Id.
+  * Delete data from Id.
     
